@@ -32,8 +32,11 @@ margin: 5px;
 
 }
 
+.navbar .fa-solid{
+    margin-right:10px ;
+}
 .nav-list{
-width: 64%;
+width: 70%;
 display: flex;
 align-items: center;
 }
@@ -77,7 +80,7 @@ color: black;
 }
 
 .firstSection{
-    height: 100vh;
+    height: 80vh;
 }
 
 .box-main{
@@ -86,16 +89,16 @@ color: black;
     align-items: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 50%;
+    max-width: 71%;
     margin: auto;
     height: 80%;
 
 }
 
 .firstHalf{
-width: 80%;
+width: 70%;
 display: flex;
-justify-content: center;
+justify-content: left;
 flex-direction: column;
 }
 
@@ -104,7 +107,8 @@ width: 30%;
 }
 
 .secondHalf img{
-    width: 70%;
+    /* 70% */
+    width: 200px;
     border: 4px solid white;
     border-radius: 150px;
     display: block;
@@ -112,7 +116,11 @@ width: 30%;
 }
 
 .text-big{
-font-size: 41px;
+font-size: 30px;
+margin-bottom: -10px;
+}
+h3{
+    margin-bottom: 10px;
 }
 
 .text-small{
@@ -148,7 +156,7 @@ align-items: center;
 justify-content: space-evenly;
 max-width: 80%;
 margin: auto  ;
-padding: 10px;
+padding: 30px;
 }
  
 .section-left{
@@ -160,14 +168,14 @@ padding: 10px;
 }
 
 .sectionTag{
-    padding: 16px 0;
+    padding: 10px 0;
 }
 
 .thumbnail img{
-    width: 150px;
+    width: 250px;
     border: 2px solid black;
     border-radius: 26px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .contact{
@@ -179,11 +187,12 @@ padding: 10px;
     text-align: center;
     padding-top: 30px;
     font-size: 35px;
+    background-color: white;
 }
 
 .form{
     max-width: 62%;
-    margin: 25px auto;
+    margin: -50px auto;
 }
 
 .form-input{
@@ -201,6 +210,7 @@ padding: 10px;
     display: flex;
     justify-content: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.281);
 }
 
 .burger{
@@ -261,4 +271,93 @@ top: 15px;
     .paras{
         padding: 0;
     }
+    .navbar .fa-solid{
+        margin-right:10px ;
+    }
+    .main-inner{
+        display:flex; 
+        flex-direction:column;
+    }
 }
+
+.about{
+    text-align: center;
+    margin: 40px;
+    font-size: 2.5em;
+}
+
+.history{
+    /* width: 1000px; */
+    /* text-align: center; */
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: block;
+margin: 40px;
+padding: 30px;
+font-size: 1.3em;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.navbar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    margin: 10px;
+
+}
+.navbar ul li:hover .sub-menu-1 ul li{
+    width: auto;
+    padding: 10px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.main5{
+    background-color:grey;
+    margin-top: 50px;
+    /* padding:60px; */
+    display:flex;
+    flex-direction:row;
+    }
+.about,.contact,.designedby{
+    margin:100px;
+    width:40%;
+    height: 20%;
+    font-size:19px;
+    background-color: gray;
+}
+.main5 .address{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.main5 .about .name{
+    /* font-size: 30px; */
+    text-align: left;
+    margin-left: 40px;
+}
+.main5 .about .ftxtp{
+    text-align: left;
+    margin-left: 40px;
+}
+.main5 .add{
+    font-size: 30px;
+    text-align: left;
+    /* margin: auto; */
+    margin-bottom: 10px;
+}
+	
