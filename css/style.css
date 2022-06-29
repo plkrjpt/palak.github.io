@@ -352,18 +352,20 @@ font-size: 1.3em;
     .sectionTag{
         width: 103%;
         margin-top: 10px;
-        /* margin-left: 0; */
+        /* margin-left: -20px; */
+
     }
     .sectionSubTag{
         text-align: justify;
-       
+        /* margin-left: -20px; */
+
     }
     
     .paras{
         padding: 0;
         width: 110%;
-        margin-right: -30px;
-
+        /* margin-right: -30px; */
+/* margin-left: -40px; */
     }
     .secondHalf{
         width: 100%;
