@@ -29,4 +29,26 @@
 .desig{
     margin-left: auto;
 }
+ /* @media only screen and (max-width: 1311px){
+    .staff ul{
+        margin-left: 150px;
+        padding: 0;
+    }
+    .staff ul li {
+
+        width: 50%;
+        margin: 0px 66px 250px 0px;
+        margin: 0;
+        margin-bottom: 200px;
+
+        height: 300px;
+
+    }
+
+}  */
+@media only screen and (max-width: 1310){
+    .staff ul li{
+        width: 100%;
+    }
+}
 
