@@ -350,33 +350,27 @@ font-size: 1.3em;
 
     }
     .sectionTag{
-        width: 100%;
+        width: 103%;
         margin-top: 10px;
+        /* margin-left: 0; */
     }
     .sectionSubTag{
         text-align: justify;
+       
     }
-    /* .text-small{
-        text-align: center;
-    } */
-    /* .text-big{
-        text-align: center;
-    } */
-    /* .buttons{
-        text-align: center;
-    } */
+    
     .paras{
         padding: 0;
         width: 110%;
         margin-right: -30px;
-        /* margin-top: 10px; */
 
     }
     .secondHalf{
-        width: 40%;
+        width: 100%;
     }
     .firstHalf{
         text-align: center;
+        width: 100%;
     }
     .navbar .fa-solid{
         margin-right:10px ;
@@ -399,9 +393,11 @@ font-size: 1.3em;
     }
     .about{
         width: 100%;
+        margin-left: 0;
     }
     .contact{
         margin-top: 0;
+        margin-left: 40px;
         width: 100%;
      
     }
@@ -409,6 +405,7 @@ font-size: 1.3em;
         width: 100%;
         margin-top: -33px;
         margin-bottom: 10px;
+        margin-left: 40px;
     }
 }
 
