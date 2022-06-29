@@ -372,6 +372,12 @@ font-size: 1.3em;
         /* margin-top: 10px; */
 
     }
+    .secondHalf{
+        width: 40%;
+    }
+    .firstHalf{
+        text-align: center;
+    }
     .navbar .fa-solid{
         margin-right:10px ;
     }
