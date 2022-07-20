@@ -21,6 +21,10 @@
     /* border: 3px solid ; */
     border-radius: 5px;
     margin: 0px 66px 250px 0px;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-bottom: 10px; */
     /* margin-bottom: 250px; */
     /* margin-right: 100px; */
     padding: 50px;
@@ -46,9 +50,12 @@
     }
 
 }  */
-@media only screen and (max-width: 1310){
+@media only screen and (max-width: 1318){
     .staff ul li{
-        width: 100%;
+        width: 90%;
+        /* margin-left: 10px; */
+        margin: 0px 500px 500px 0px;
+
     }
 }
 

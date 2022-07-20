@@ -60,4 +60,10 @@
         padding-top: 50px;
         margin: 0;
     }
+    .detail{
+        width: 305%;
+    }
+    .form{
+        width: 100%;
+    }
 }
